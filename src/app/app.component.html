@@ -1,0 +1,25 @@
+<div class="contenedor">
+  <h1>MOVIMIENTO RECTILINEO UNIFORME</h1>
+  <img class="imagen" src="/assets/ddddd.svg" alt="">
+  <br>
+  <p class="descripcion">La fórmula para hallar la distancia es: Distancia = Velocidad * Tiempo</p>
+  <div class="operacion">
+    <mat-form-field>
+      <input matInput [(ngModel)]="valor1" type="number" placeholder="Ingrese velocidad :">
+      </mat-form-field>
+      <mat-form-field>
+      <input matInput [(ngModel)]="valor2" type="number" placeholder="Ingrese tiempo:">
+      </mat-form-field>
+      <mat-form-field>
+      <mat-select placeholder="Operaciones" [(ngModel)]="seleccionada" name="operacion">
+      <mat-option *ngFor="let op of operaciones" [value]="op.valor">
+      {{op.muestraValor}}
+      </mat-option>
+      </mat-select>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="operar()">Calcular</button><br>
+    </div>
+      <p class="resultado-final">La distancia recorrida por el automovil es: {{resultado}} metros.</p>
+  
+  
+ </div>
