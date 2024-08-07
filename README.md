@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Examen
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
@@ -25,3 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# MRU-Angular
+Movimiento Rectilíneo Uniforme con Angular
+![image](https://github.com/user-attachments/assets/cc9b76df-1e61-4e64-b13c-1ef05f7c297f)
+>>>>>>> c2b9c39aede5ed9b1ba5fbe67adbbb1f02f7b261
